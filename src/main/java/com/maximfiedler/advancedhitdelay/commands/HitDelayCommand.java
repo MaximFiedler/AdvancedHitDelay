@@ -52,24 +52,24 @@ public class HitDelayCommand implements CommandExecutor  {
             }
             case "damagemultiplier" -> {
                 try {
-                    this.advancedHitDelay.config.updateValue("Options.DamageMultiplier", Double.parseDouble(args[1]));
-                    sender.sendMessage(ChatColor.GREEN + "Success! DamageMultiplier is now set to " + Double.parseDouble(args[1]));
+                    this.advancedHitDelay.config.updateValue("Options.DamageMultiplier", Integer.parseInt(args[1]));
+                    sender.sendMessage(ChatColor.GREEN + "Success! DamageMultiplier is now set to " + Integer.parseInt(args[1]));
                 } catch (Exception e) {
                     sender.sendMessage(ChatColor.RED + args[1] + " is not a valid number!");
                 }
             }
             case "nodamageticks" -> {
                 try {
-                    this.advancedHitDelay.config.updateValue("Options.NoDamageTicks", Double.parseDouble(args[1]));
-                    sender.sendMessage(ChatColor.GREEN + "Success! NoDamageTicks is now set to " + Double.parseDouble(args[1]));
+                    this.advancedHitDelay.config.updateValue("Options.NoDamageTicks", Integer.parseInt(args[1]));
+                    sender.sendMessage(ChatColor.GREEN + "Success! NoDamageTicks is now set to " + Integer.parseInt(args[1]));
                 } catch (Exception e) {
                     sender.sendMessage(ChatColor.RED + args[1] + " is not a valid number!");
                 }
             }
             case "maxnodamageticks" -> {
                 try {
-                    this.advancedHitDelay.config.updateValue("Options.MaxNoDamageTicks", Double.parseDouble(args[1]));
-                    sender.sendMessage(ChatColor.GREEN + "Success! MaxNoDamageTicks is now set to " + Double.parseDouble(args[1]));
+                    this.advancedHitDelay.config.updateValue("Options.MaxNoDamageTicks", Integer.parseInt(args[1]));
+                    sender.sendMessage(ChatColor.GREEN + "Success! MaxNoDamageTicks is now set to " + Integer.parseInt(args[1]));
                 } catch (Exception e) {
                     sender.sendMessage(ChatColor.RED + args[1] + " is not a valid number!");
                 }
