@@ -4,7 +4,7 @@
 </p>
 <h1>AdvancedHitDelay</h1>
 Change the hitdelay, damagedelay and more as you like
-
+<br>
 Config.yml
 ```yml
 Options:
