@@ -13,7 +13,7 @@ Options:
 
 Commands:
 ```
-/hitdelay reload"
+/hitdelay reload
 /hitdelay nohitdelay <true/false>
 /hitdelay nodamagedelay <true/false>
 /hitdelay damagemultiplier <number>
