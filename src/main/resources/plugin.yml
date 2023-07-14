@@ -1,0 +1,7 @@
+name: AdvancedHitDelay
+version: '${version}'
+main: com.maximde.advancedhitdelay.AdvancedHitDelay
+api-version: '1.20'
+
+commands:
+  hitdelay:
