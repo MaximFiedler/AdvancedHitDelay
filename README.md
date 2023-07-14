@@ -11,5 +11,13 @@ Options:
   MaxNoDamageTicks: 10
 ```
 
-
+Commands:
+```
+/hitdelay reload");
+/hitdelay nohitdelay <true/false>
+/hitdelay nodamagedelay <true/false>
+/hitdelay damagemultiplier <number>
+/hitdelay nodamageticks <number>
+/hitdelay maxnodamageticks <number>
+```
 
