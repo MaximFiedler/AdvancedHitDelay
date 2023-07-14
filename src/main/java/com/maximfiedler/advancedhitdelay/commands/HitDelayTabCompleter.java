@@ -1,6 +1,6 @@
-package com.maximde.advancedhitdelay.commands;
+package com.maximfiedler.advancedhitdelay.commands;
 
-import com.maximde.advancedhitdelay.AdvancedHitDelay;
+import com.maximfiedler.advancedhitdelay.AdvancedHitDelay;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;

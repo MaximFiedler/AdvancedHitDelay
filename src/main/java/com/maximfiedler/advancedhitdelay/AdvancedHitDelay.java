@@ -1,10 +1,10 @@
-package com.maximde.advancedhitdelay;
+package com.maximfiedler.advancedhitdelay;
 
-import com.maximde.advancedhitdelay.commands.HitDelayCommand;
-import com.maximde.advancedhitdelay.commands.HitDelayTabCompleter;
-import com.maximde.advancedhitdelay.listeners.EntityDamageListener;
-import com.maximde.advancedhitdelay.listeners.PlayerJoinListener;
-import com.maximde.advancedhitdelay.utils.Config;
+import com.maximfiedler.advancedhitdelay.commands.HitDelayCommand;
+import com.maximfiedler.advancedhitdelay.commands.HitDelayTabCompleter;
+import com.maximfiedler.advancedhitdelay.listeners.EntityDamageListener;
+import com.maximfiedler.advancedhitdelay.listeners.PlayerJoinListener;
+import com.maximfiedler.advancedhitdelay.utils.Config;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class AdvancedHitDelay extends JavaPlugin {

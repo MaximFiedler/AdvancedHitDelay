@@ -1,7 +1,8 @@
 name: AdvancedHitDelay
 version: '${version}'
-main: com.maximde.advancedhitdelay.AdvancedHitDelay
+main: com.maximfiedler.advancedhitdelay.AdvancedHitDelay
 api-version: '1.20'
+author: MaximFiedler
 
 commands:
   hitdelay:

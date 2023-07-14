@@ -1,6 +1,6 @@
-package com.maximde.advancedhitdelay.listeners;
+package com.maximfiedler.advancedhitdelay.listeners;
 
-import com.maximde.advancedhitdelay.AdvancedHitDelay;
+import com.maximfiedler.advancedhitdelay.AdvancedHitDelay;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

@@ -1,6 +1,6 @@
-package com.maximde.advancedhitdelay.utils;
+package com.maximfiedler.advancedhitdelay.utils;
 
-import com.maximde.advancedhitdelay.AdvancedHitDelay;
+import com.maximfiedler.advancedhitdelay.AdvancedHitDelay;
 import org.bukkit.Bukkit;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.configuration.file.YamlConfiguration;
