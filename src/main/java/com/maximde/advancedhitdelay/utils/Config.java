@@ -1,7 +1,10 @@
 package com.maximde.advancedhitdelay.utils;
 
 import com.maximde.advancedhitdelay.AdvancedHitDelay;
+import org.bukkit.Bukkit;
+import org.bukkit.attribute.Attribute;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.entity.Player;
 
 import java.io.File;
 import java.io.IOException;
@@ -40,6 +43,10 @@ public class Config {
         this.cfg.set(path, value);
         saveConfig();
         initValues();
+        for(Player all : Bukkit.getOnlinePlayers()) {
+            all.getAttribute(Attribute.GENERIC_ATTACK_SPEED).setBaseValue(this.advancedHitDelay.config.isNoHitDelay() ? 1024.0D : this.advancedHitDelay.config.getHitDelay());
+            all.saveData();
+        }
     }
 
     private void initValues() {
