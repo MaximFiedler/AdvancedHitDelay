@@ -3,7 +3,7 @@
 <a href="https://github.com/MaximFiedler/AdvancedHitDelay/releases"><img src="https://img.shields.io/github/v/tag/MaximFiedler/AdvancedHitDelay.svg" alt="Version"></a>  
 </p>
 <h1>AdvancedHitDelay</h1>
-Change the hit delay, damage delay and more as you like
+Change the hitdelay, damagedelay and more as you like
 
 Config.yml
 ```yml
