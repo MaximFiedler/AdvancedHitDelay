@@ -10,9 +10,9 @@ import java.io.File;
 import java.io.IOException;
 
 public class Config {
-    private double damageMultiplier;
-    private double noDamageTicks;
-    private double maxNoDamageTicks;
+    private int damageMultiplier;
+    private int noDamageTicks;
+    private int maxNoDamageTicks;
     private boolean noHitDelay;
     private boolean noDamageDelay;
     private AdvancedHitDelay advancedHitDelay;
@@ -50,9 +50,9 @@ public class Config {
     }
 
     private void initValues() {
-        damageMultiplier = this.cfg.getDouble("Options.DamageMultiplier");
-        noDamageTicks = this.cfg.getDouble("Options.NoDamageTicks");
-        maxNoDamageTicks = this.cfg.getDouble("Options.MaxNoDamageTicks");
+        damageMultiplier = this.cfg.getInt("Options.DamageMultiplier");
+        noDamageTicks = this.cfg.getInt("Options.NoDamageTicks");
+        maxNoDamageTicks = this.cfg.getInt("Options.MaxNoDamageTicks");
         noHitDelay = this.cfg.getBoolean("Options.NoHitDelay");
         noDamageDelay = this.cfg.getBoolean("Options.NoDamageDelay");
     }
@@ -61,21 +61,21 @@ public class Config {
         if(!this.cfg.isSet(path)) cfg.set(path, value);
     }
 
-    public double getHitDelay() {
+    public int getHitDelay() {
         return hitDelay;
     }
 
-    private double hitDelay;
+    private int hitDelay;
 
-    public double getDamageMultiplier() {
+    public int getDamageMultiplier() {
         return damageMultiplier;
     }
 
-    public double getNoDamageTicks() {
+    public int getNoDamageTicks() {
         return noDamageTicks;
     }
 
-    public double getMaxNoDamageTicks() {
+    public int getMaxNoDamageTicks() {
         return maxNoDamageTicks;
     }
 
